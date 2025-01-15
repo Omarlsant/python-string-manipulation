@@ -1,4 +1,4 @@
-#Print your text variable to the screen by passing the text variable as the argument to the print() function.
+# Now, instead of printing text, print just the character at index 6.
 
 text = 'Hello World'
-print(text)
+print(text[6])
