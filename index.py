@@ -1,4 +1,4 @@
-# Now modify your existing print() call to print the last character in your string.
+# Modify your existing print() call by passing len(text) instead of text[-1].
 
 text = 'Hello World'
-print(text[-1])
+print(len(text))
