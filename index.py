@@ -1,4 +1,4 @@
-# Modify your existing print() call by passing len(text) instead of text[-1].
+# Another useful built-in function is type(), which returns the data type of a variable. Modify your print() call to print the data type of text.
 
 text = 'Hello World'
-print(len(text))
+print(type(text))
