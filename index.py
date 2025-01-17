@@ -1,6 +1,5 @@
-# Modify your print(shift) call to print the data type of your shift variable.
+# Remove both calls to print() and declare another variable called alphabet. Assign the string 'abcdefghijklmnopqrstuvwxyz' to this variable.
 
 text = 'Hello World'
-print(type(text))
 shift = 3
-print(type(shift))
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
