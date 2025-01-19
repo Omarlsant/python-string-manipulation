@@ -1,7 +1,7 @@
-# Step 24: Give your for loop a body by adding a call to print(i). Remember to indent the loop body.
+# Step 25: Rename your i variable to char.
 
 text = 'Hello World'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-for i in text:
-    print(i)
+for char in text:
+    print(char)
