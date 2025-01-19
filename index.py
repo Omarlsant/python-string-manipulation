@@ -1,8 +1,8 @@
-# Step 26: Inside the for loop, before printing the current character, declare a variable called index and assign the value returned by alphabet.find(char) to this variable.
+# Step 27: Add a second argument to print(char) so that it prints the character and its index inside the alphabet.
 
 text = 'Hello World'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 for char in text:
     index = alphabet.find(char)
-    print(char)
+    print(char, index)
