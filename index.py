@@ -1,4 +1,4 @@
-# Step 33: Now you need to create a new_char variable at the end of your loop body. Set its value to alphabet[new_index].
+# Step 34: Next, print new_char and see the output.
 
 text = 'Hello World'
 shift = 3
@@ -8,3 +8,4 @@ for char in text.lower():
     print(char, index)
     new_index = index + shift
     new_char = alphabet[new_index]
+    print(new_char)
