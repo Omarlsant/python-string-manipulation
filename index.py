@@ -1,7 +1,6 @@
-# Step 31: Delete the text[0] line and reassign text the string 'Albatross'.
+# Step 32: Go back to the original string by deleting the text reassignment.
 
 text = 'Hello World'
-text = 'Albatross'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 for char in text.lower():
