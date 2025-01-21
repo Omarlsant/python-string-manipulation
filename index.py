@@ -1,6 +1,7 @@
-# Step 29: At the end of your loop body, declare a variable called new_index and assign the value of index + shift to this variable.
+# Step 30: Strings are immutable, which means they cannot be changed once created. Confirm that by using the bracket notation to access the first letter in text and try to change it into a character of your choice.
 
 text = 'Hello World'
+text[0] = 'm'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 for char in text.lower():
