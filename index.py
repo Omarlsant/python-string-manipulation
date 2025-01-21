@@ -1,7 +1,7 @@
-# Step 30: Strings are immutable, which means they cannot be changed once created. Confirm that by using the bracket notation to access the first letter in text and try to change it into a character of your choice.
+# Step 31: Delete the text[0] line and reassign text the string 'Albatross'.
 
 text = 'Hello World'
-text[0] = 'm'
+text = 'Albatross'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 for char in text.lower():
