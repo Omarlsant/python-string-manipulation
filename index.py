@@ -1,4 +1,4 @@
-# Step 38: Instead of assigning alphabet[new_index] to encrypted_text, assign the current value of encrypted_text plus alphabet[new_index] to this variable.
+# Step 39: You can obtain the same effect of a = a + b by using the addition assignment operator. Use the += operator to add a value and assign it at the same time to encrypted_text.
 
 text = 'Hello World'
 shift = 3
@@ -7,5 +7,5 @@ encrypted_text = ''
 for char in text.lower():
     index = alphabet.find(char)
     new_index = index + shift
-    encrypted_text = encrypted_text + alphabet[new_index]
+    encrypted_text += alphabet[new_index]
     print('char:', char, 'encrypted text:', encrypted_text)
