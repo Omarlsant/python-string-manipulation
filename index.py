@@ -1,6 +1,6 @@
-# Step 43: To fix it, add an else clause after encrypted_text += char and indent all the subsequent lines of code except the print() call.
+# Step 44: Try to assign the string 'Hello Zaira' to your text variable and see what happens in the terminal. You'll see a string index out of range exception
 
-text = 'Hello World'
+text = 'Hello Zaira'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 encrypted_text = ''
