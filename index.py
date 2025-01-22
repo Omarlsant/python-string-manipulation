@@ -1,10 +1,11 @@
-# Step 39: You can obtain the same effect of a = a + b by using the addition assignment operator. Use the += operator to add a value and assign it at the same time to encrypted_text.
+# Step 40: At the beginning of your loop body, print the result of comparing char with a space (' '). Use the equality operator == for that.
 
 text = 'Hello World'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 encrypted_text = ''
 for char in text.lower():
+    print(char == ' ')
     index = alphabet.find(char)
     new_index = index + shift
     encrypted_text += alphabet[new_index]
