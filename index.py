@@ -1,8 +1,9 @@
-# Step 35: Clean the output a bit. Delete print(char, index), and turn the last print() call into print('char:', char, 'new char:', new_char).
+# Step 36: Before your for loop, declare a variable called encrypted_text and assign an empty string ('') to this variable.
 
 text = 'Hello World'
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
+encrypted_text = ''
 for char in text.lower():
     index = alphabet.find(char)
     new_index = index + shift
