@@ -1,4 +1,4 @@
-# Step 45: Surround index + shift with parentheses, and modulo the expression with 26, which is the alphabet length.
+# Step 46: Replace 26 with len(alphabet) to avoid this issue.
 
 text = 'Hello Zaira'
 shift = 3
@@ -9,6 +9,6 @@ for char in text.lower():
         encrypted_text += char
     else:
         index = alphabet.find(char)
-        new_index = (index + shift) % 26
+        new_index = (index + shift) % len(alphabet)
         encrypted_text += alphabet[new_index]
     print('char:', char, 'encrypted text:', encrypted_text)
