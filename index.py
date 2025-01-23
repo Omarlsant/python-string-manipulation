@@ -1,4 +1,4 @@
-# Step 46: Replace 26 with len(alphabet) to avoid this issue.
+# Step 47: Next, modify your print() call to print 'encrypted text:', encrypted_text and put it outside the for loop, so that the encrypted string is printed one time.
 
 text = 'Hello Zaira'
 shift = 3
@@ -11,4 +11,4 @@ for char in text.lower():
         index = alphabet.find(char)
         new_index = (index + shift) % len(alphabet)
         encrypted_text += alphabet[new_index]
-    print('char:', char, 'encrypted text:', encrypted_text)
+print('encrypted text:', encrypted_text)
