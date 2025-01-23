@@ -1,15 +1,16 @@
-# Step 48: Right before the print call, add another one and pass 'plain text:', text as the arguments to print(). Use the same indentation.
+# Step 49: Right after your shift variable, declare a function called caesar and indent all the following lines to give your new function a body.
 
 text = 'Hello Zaira'
 shift = 3
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-encrypted_text = ''
-for char in text.lower():
-    if char == ' ':
-        encrypted_text += char
-    else:
-        index = alphabet.find(char)
-        new_index = (index + shift) % len(alphabet)
-        encrypted_text += alphabet[new_index]
-print('plain text:', text)
-print('encrypted text:', encrypted_text)
+def caesar():
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    encrypted_text = ''
+    for char in text.lower():
+        if char == ' ':
+            encrypted_text += char
+        else:
+            index = alphabet.find(char)
+            new_index = (index + shift) % len(alphabet)
+            encrypted_text += alphabet[new_index]
+    print('plain text:', text)
+    print('encrypted text:', encrypted_text)
