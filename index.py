@@ -1,4 +1,4 @@
-# Step 49: Right after your shift variable, declare a function called caesar and indent all the following lines to give your new function a body.
+# Step 50: In Python, the scope of a variable determines where that variable can be accessed. To see this in action, try to print the alphabet variable at the end of your code.
 
 text = 'Hello Zaira'
 shift = 3
@@ -14,3 +14,5 @@ def caesar():
             encrypted_text += alphabet[new_index]
     print('plain text:', text)
     print('encrypted text:', encrypted_text)
+
+print(alphabet) # This will throw an error because the alphabet variable is not defined in the global scope. It is only accessible within the caesar function.
