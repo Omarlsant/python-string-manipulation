@@ -1,4 +1,4 @@
-# Step 50: In Python, the scope of a variable determines where that variable can be accessed. To see this in action, try to print the alphabet variable at the end of your code.
+# Step 52: At the end of your code, call your caesar function. Pay attention to the indentation.
 
 text = 'Hello Zaira'
 shift = 3
@@ -14,3 +14,5 @@ def caesar():
             encrypted_text += alphabet[new_index]
     print('plain text:', text)
     print('encrypted text:', encrypted_text)
+
+caesar()
