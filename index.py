@@ -14,5 +14,3 @@ def caesar():
             encrypted_text += alphabet[new_index]
     print('plain text:', text)
     print('encrypted text:', encrypted_text)
-
-print(alphabet) # This will throw an error because the alphabet variable is not defined in the global scope. It is only accessible within the caesar function.
