@@ -1,8 +1,8 @@
-# Step 52: At the end of your code, call your caesar function. Pay attention to the indentation.
+# Step 53: Modify your function declaration so that it takes two parameters called message and offset. After that, you'll see an error appear in the terminal. 
 
 text = 'Hello Zaira'
 shift = 3
-def caesar():
+def caesar(message, offset):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     encrypted_text = ''
     for char in text.lower():
