@@ -1,5 +1,4 @@
-# Step 55: Calling caesar() without the required arguments stops the execution of the code. Give message and offset values, by passing text and shift as arguments to the caesar function call.
-
+# Step 56: At the bottom of your code, after your existing caesar(text, shift) call, call your function again. This time, pass the text variable and the integer 13 as arguments.
 text = 'Hello Zaira'
 shift = 3
 def caesar(message, offset):
@@ -16,3 +15,4 @@ def caesar(message, offset):
     print('encrypted text:', encrypted_text)
 
 caesar(text, shift)
+caesar(text, 13)
