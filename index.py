@@ -1,4 +1,4 @@
-# Step 54: Inside your function body, rename the text and shift variables to message and offset, respectively.
+# Step 55: Calling caesar() without the required arguments stops the execution of the code. Give message and offset values, by passing text and shift as arguments to the caesar function call.
 
 text = 'Hello Zaira'
 shift = 3
@@ -15,4 +15,4 @@ def caesar(message, offset):
     print('plain text:', message)
     print('encrypted text:', encrypted_text)
 
-caesar()
+caesar(text, shift)
