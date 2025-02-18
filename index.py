@@ -1,4 +1,4 @@
-# Step 60: Since your key is shorter than the text that you will have to encrypt, you will need to repeat it to generate the whole encrypted text. At the beginning of your function body, declare a key_index variable and set it to zero.
+# Step 61: Before your if statement, add a comment saying Append space to the message.
 
 text = 'Hello Zaira'
 custom_key = 'python'
@@ -7,6 +7,7 @@ def vigenere(message, key):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     encrypted_text = ''
     for char in message.lower():
+        # Append space to the message
         if char == ' ':
             encrypted_text += char
         else:
