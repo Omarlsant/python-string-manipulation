@@ -1,7 +1,7 @@
-# Step 58: Now modify your function declaration: change the function name into vigenere and the second parameter into key.
+# Step 59: Delete your shift variable. Then, declare a new variable called custom_key and assign the value of the string 'python' to this variable.
 
 text = 'Hello Zaira'
-shift = 3
+custom_key = 'python'
 def vigenere(message, key):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     encrypted_text = ''
