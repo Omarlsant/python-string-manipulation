@@ -1,8 +1,8 @@
-# Step 57: Start transforming your Caesar cipher into a Vigenère cipher by removing the two function calls.
+# Step 58: Now modify your function declaration: change the function name into vigenere and the second parameter into key.
 
 text = 'Hello Zaira'
 shift = 3
-def caesar(message, offset):
+def vigenere(message, key):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     encrypted_text = ''
     for char in message.lower():
