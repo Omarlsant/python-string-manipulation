@@ -1,4 +1,5 @@
-# Step 56: At the bottom of your code, after your existing caesar(text, shift) call, call your function again. This time, pass the text variable and the integer 13 as arguments.
+# Step 57: Start transforming your Caesar cipher into a Vigenère cipher by removing the two function calls.
+
 text = 'Hello Zaira'
 shift = 3
 def caesar(message, offset):
@@ -13,6 +14,3 @@ def caesar(message, offset):
             encrypted_text += alphabet[new_index]
     print('plain text:', message)
     print('encrypted text:', encrypted_text)
-
-caesar(text, shift)
-caesar(text, 13)
