@@ -1,4 +1,4 @@
-# Step 64: Inside the else clause, write a comment saying Find the right key character to encode.
+# Step 65: The .index() method is identical to the .find() method but it throws a ValueError exception if it is unable to find the substring. After incrementing key_index, declare a variable named offset. Find the index that key_char has in alphabet and assign it to offset. Use the .index() to find the index.
 
 text = 'Hello Zaira'
 custom_key = 'python'
@@ -14,6 +14,7 @@ def vigenere(message, key):
         # Find the right key character to encode
             key_char = key[key_index % len(key)]
             key_index += 1
+            offset = alphabet.index(key_char)
             index = alphabet.find(char)
             new_index = (index + offset) % len(alphabet)
             encrypted_text += alphabet[new_index]
