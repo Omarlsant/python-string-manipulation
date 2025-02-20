@@ -1,4 +1,4 @@
-# Step 61: Before your if statement, add a comment saying Append space to the message.
+# Step 62: Next, inside the else block, declare a variable called key_char and assign it the value of key at the index key_index mod(%) the length of key.
 
 text = 'Hello Zaira'
 custom_key = 'python'
@@ -11,8 +11,10 @@ def vigenere(message, key):
         if char == ' ':
             encrypted_text += char
         else:
+            key_char = key[key_index % len(key)]
             index = alphabet.find(char)
             new_index = (index + offset) % len(alphabet)
             encrypted_text += alphabet[new_index]
+            
     print('plain text:', message)
     print('encrypted text:', encrypted_text)
