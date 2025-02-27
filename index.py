@@ -1,4 +1,4 @@
-# Step 68: Call your function passing text and custom_key as the arguments. Store the return value of the function call in a variable called encryption.
+# Step 69: And now, try to print encryption to see the actual output on the terminal.
 
 text = 'Hello Zaira'
 custom_key = 'python'
@@ -22,3 +22,4 @@ def vigenere(message, key):
     return encrypted_text
 
 encryption = vigenere(text, custom_key)
+print(encryption)
