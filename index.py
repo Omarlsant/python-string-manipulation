@@ -1,4 +1,4 @@
-# Step 75: Now, your function can be used both to encrypt and decrypt a message. Clean up your code with better variable names. Change each occurrence of encrypted_text into final_message.
+# Step 76: Update your comments too. Your second comment should say encode/decode in place of encode. Your third comment should say encrypted/decrypted in place of encrypted.
 
 text = 'Hello Zaira'
 custom_key = 'python'
@@ -11,10 +11,10 @@ def vigenere(message, key, direction):
         if char == ' ':
             final_message += char
         else:
-        # Find the right key character to encode
+        # Find the right key character to encode/decode
             key_char = key[key_index % len(key)]
             key_index += 1
-            # Define the offset and the encrypted letter
+            # Define the offset and the encrypted/decrypted letter
             offset = alphabet.index(key_char)
             index = alphabet.find(char)
             new_index = (index + offset * direction) % len(alphabet)
