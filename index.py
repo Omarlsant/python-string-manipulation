@@ -1,4 +1,4 @@
-# Step 81: The not operator is used to negate an expression. When placed before a truthy value — a value that evaluates to True — it returns False and vice versa. Add the not operator at the beginning of the if condition to check if the character is not alphabetic.
+# Step 82: Modify your comment into Append any non-letter character to the message.
 
 text = 'Hello Zaira!'
 custom_key = 'python'
@@ -7,7 +7,7 @@ def vigenere(message, key, direction=1):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     final_message = ''
     for char in message.lower():
-        # Append space to the message
+        # Append any non-letter character to the message
         if not char.isalpha():
             final_message += char
         else:
