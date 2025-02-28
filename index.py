@@ -1,6 +1,6 @@
-# Step 78: Now you can remove the third argument from your first function call.
+# Step 79: Right now, punctuation, special characters or digits are not encoded/decoded correctly. Check this by adding an exclamation mark at the end of the text string.
 
-text = 'Hello Zaira'
+text = 'Hello Zaira!'
 custom_key = 'python'
 def vigenere(message, key, direction=1):
     key_index = 0
