@@ -1,4 +1,4 @@
-# Step 82: Modify your comment into Append any non-letter character to the message.
+# Step 83: Calling vigenere with 1 to encrypt and -1 to decrypt is fine but it might be a little bit cryptic. Create a new function called encrypt that takes message and key parameters, and use pass to fill the function body.
 
 text = 'Hello Zaira!'
 custom_key = 'python'
@@ -21,6 +21,8 @@ def vigenere(message, key, direction=1):
             final_message += alphabet[new_index]
     return final_message
 
+def encrypt(message, key):
+    pass
 encryption = vigenere(text, custom_key)
 print(encryption)
 decryption = vigenere(encryption, custom_key)
