@@ -1,4 +1,4 @@
-# Step 77: Modify the vigenere function so that its direction parameter has a default value of 1.
+# Step 78: Now you can remove the third argument from your first function call.
 
 text = 'Hello Zaira'
 custom_key = 'python'
@@ -21,7 +21,7 @@ def vigenere(message, key, direction=1):
             final_message += alphabet[new_index]
     return final_message
 
-encryption = vigenere(text, custom_key, 1)
+encryption = vigenere(text, custom_key)
 print(encryption)
-decryption = vigenere(encryption, custom_key, -1)
+decryption = vigenere(encryption, custom_key)
 print(decryption)
