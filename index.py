@@ -1,4 +1,4 @@
-# Step 71: All you need to do is multiply the offset by the direction in the new_index assignment. The multiplication operator in Python is *.
+# Step 72: Now you can uncomment the last two lines and modify your function call passing 1 as the third argument.
 
 text = 'Hello Zaira'
 custom_key = 'python'
@@ -21,5 +21,5 @@ def vigenere(message, key, direction):
             encrypted_text += alphabet[new_index]
     return encrypted_text
 
-# encryption = vigenere(text, custom_key)
-# print(encryption)
+encryption = vigenere(text, custom_key, 1)
+print(encryption)
