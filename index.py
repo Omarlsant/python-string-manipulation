@@ -1,4 +1,4 @@
-# Step 72: Now you can uncomment the last two lines and modify your function call passing 1 as the third argument.
+# Step 73: Check if the function can decrypt the string back to the plain text. Declare another variable called decryption and assign it vigenere(encryption, custom_key, -1).
 
 text = 'Hello Zaira'
 custom_key = 'python'
@@ -23,3 +23,4 @@ def vigenere(message, key, direction):
 
 encryption = vigenere(text, custom_key, 1)
 print(encryption)
+decryption = vigenere(encryption, custom_key, -1)
