@@ -1,5 +1,4 @@
-# Step 73: Check if the function can decrypt the string back to the plain text. Declare another variable called decryption and assign it vigenere(encryption, custom_key, -1).
-
+# Step 74: Now print your decryption variable.
 text = 'Hello Zaira'
 custom_key = 'python'
 def vigenere(message, key, direction):
@@ -24,3 +23,4 @@ def vigenere(message, key, direction):
 encryption = vigenere(text, custom_key, 1)
 print(encryption)
 decryption = vigenere(encryption, custom_key, -1)
+print(decryption)
