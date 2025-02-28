@@ -1,4 +1,4 @@
-# Step 85: Define another function named decrypt with the same parameters as encrypt. This time return vigenere(message, key, -1).
+# Step 86: Next, modify your encryption and decryption variables by calling encrypt and decrypt, respectively, in place of vigenere.
 
 text = 'Hello Zaira!'
 custom_key = 'python'
@@ -27,7 +27,7 @@ def encrypt(message, key):
 def decrypt(message, key):
     return vigenere(message, key, -1)
 
-encryption = vigenere(text, custom_key)
+encryption = encrypt(text, custom_key)
 print(encryption)
-decryption = vigenere(encryption, custom_key)
+decryption = decrypt(encryption, custom_key)
 print(decryption)
