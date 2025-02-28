@@ -1,4 +1,4 @@
-# Step 84: Delete the pass keyword, and return vigenere(message, key) from your new function.
+# Step 85: Define another function named decrypt with the same parameters as encrypt. This time return vigenere(message, key, -1).
 
 text = 'Hello Zaira!'
 custom_key = 'python'
@@ -23,6 +23,9 @@ def vigenere(message, key, direction=1):
 
 def encrypt(message, key):
     return vigenere(message, key)
+
+def decrypt(message, key):
+    return vigenere(message, key, -1)
 
 encryption = vigenere(text, custom_key)
 print(encryption)
