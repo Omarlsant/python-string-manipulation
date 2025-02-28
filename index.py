@@ -1,4 +1,4 @@
-# Step 79: Right now, punctuation, special characters or digits are not encoded/decoded correctly. Check this by adding an exclamation mark at the end of the text string.
+# Step 80: Delete the condition char == ' ' and replace it by calling the .isalpha() method on char.
 
 text = 'Hello Zaira!'
 custom_key = 'python'
@@ -8,7 +8,7 @@ def vigenere(message, key, direction=1):
     final_message = ''
     for char in message.lower():
         # Append space to the message
-        if char == ' ':
+        if char.isalpha():
             final_message += char
         else:
         # Find the right key character to encode/decode
