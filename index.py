@@ -1,8 +1,8 @@
-# Step 76: Update your comments too. Your second comment should say encode/decode in place of encode. Your third comment should say encrypted/decrypted in place of encrypted.
+# Step 77: Modify the vigenere function so that its direction parameter has a default value of 1.
 
 text = 'Hello Zaira'
 custom_key = 'python'
-def vigenere(message, key, direction):
+def vigenere(message, key, direction=1):
     key_index = 0
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     final_message = ''
