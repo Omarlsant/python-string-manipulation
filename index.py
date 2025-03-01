@@ -1,4 +1,4 @@
-# Step 91: In Python, there's a way to easily format strings. f-strings enable you to interpolate values in your strings. Modify the first print() call to use an f-string.
+# Step 92: Next, modify print('Key: ' + custom_key) to use an f-string.
 
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'python'
@@ -28,7 +28,7 @@ def decrypt(message, key):
     return vigenere(message, key, -1)
 
 print(f'Encrypted text: {text}')
-print('Key: ' + custom_key)
+print(f'Key: {custom_key}')
 
 # decryption = decrypt(encryption, custom_key)
 # print(decryption)
