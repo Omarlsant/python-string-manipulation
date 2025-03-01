@@ -1,4 +1,4 @@
-# Step 89: Call the print() function and use the + operator to concatenate the text variable to the string 'Encrypted text: '. Pay attention to the spacing.
+# Step 90: Below the print() call you just added, add another print() call to print Key: python by concatenating the string 'Key: ' and the value of the custom_key variable.
 
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'python'
@@ -28,6 +28,7 @@ def decrypt(message, key):
     return vigenere(message, key, -1)
 
 print('Encrypted text: ' + text)
+print('Key: ' + custom_key)
 
 # decryption = decrypt(encryption, custom_key)
 # print(decryption)
