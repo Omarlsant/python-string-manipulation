@@ -1,6 +1,6 @@
-# Step 86: Next, modify your encryption and decryption variables by calling encrypt and decrypt, respectively, in place of vigenere.
+# Step 87: It works! Now, you are going to start with an encrypted message to be decrypted. Change the value of text to the string 'mrttaqrhknsw ih puggrur'.
 
-text = 'Hello Zaira!'
+text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'python'
 def vigenere(message, key, direction=1):
     key_index = 0
