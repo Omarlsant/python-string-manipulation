@@ -1,4 +1,4 @@
-# Step 90: Below the print() call you just added, add another print() call to print Key: python by concatenating the string 'Key: ' and the value of the custom_key variable.
+# Step 91: In Python, there's a way to easily format strings. f-strings enable you to interpolate values in your strings. Modify the first print() call to use an f-string.
 
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'python'
@@ -27,7 +27,7 @@ def encrypt(message, key):
 def decrypt(message, key):
     return vigenere(message, key, -1)
 
-print('Encrypted text: ' + text)
+print(f'Encrypted text: {text}')
 print('Key: ' + custom_key)
 
 # decryption = decrypt(encryption, custom_key)
