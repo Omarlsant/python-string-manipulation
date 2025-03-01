@@ -1,4 +1,4 @@
-# Step 87: It works! Now, you are going to start with an encrypted message to be decrypted. Change the value of text to the string 'mrttaqrhknsw ih puggrur'.
+# Step 88: Since this time you are starting from an encrypted string to decrypt, you won't need the encryption variable anymore. Delete encryption and the print(encryption) call. Also, comment out the last two lines of your code.
 
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'python'
@@ -27,7 +27,5 @@ def encrypt(message, key):
 def decrypt(message, key):
     return vigenere(message, key, -1)
 
-encryption = encrypt(text, custom_key)
-print(encryption)
-decryption = decrypt(encryption, custom_key)
-print(decryption)
+# decryption = decrypt(encryption, custom_key)
+# print(decryption)
