@@ -1,7 +1,7 @@
-# Step 95: Uncomment your last print() call and change it to use the f-string.
+# Step 96: Wait a minute! You cannot decrypt anything with the wrong key. Try with 'happycoding'.
 
 text = 'mrttaqrhknsw ih puggrur'
-custom_key = 'python'
+custom_key = 'happycoding'
 def vigenere(message, key, direction=1):
     key_index = 0
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
