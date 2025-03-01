@@ -1,4 +1,4 @@
-# Step 88: Since this time you are starting from an encrypted string to decrypt, you won't need the encryption variable anymore. Delete encryption and the print(encryption) call. Also, comment out the last two lines of your code.
+# Step 89: Call the print() function and use the + operator to concatenate the text variable to the string 'Encrypted text: '. Pay attention to the spacing.
 
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'python'
@@ -26,6 +26,8 @@ def encrypt(message, key):
 
 def decrypt(message, key):
     return vigenere(message, key, -1)
+
+print('Encrypted text: ' + text)
 
 # decryption = decrypt(encryption, custom_key)
 # print(decryption)
