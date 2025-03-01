@@ -1,4 +1,4 @@
-# Step 92: Next, modify print('Key: ' + custom_key) to use an f-string.
+# Step 93: Put a newline character at the beginning of your first print call and see the output.
 
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'python'
@@ -27,7 +27,7 @@ def encrypt(message, key):
 def decrypt(message, key):
     return vigenere(message, key, -1)
 
-print(f'Encrypted text: {text}')
+print(f'\nEncrypted text: {text}')
 print(f'Key: {custom_key}')
 
 # decryption = decrypt(encryption, custom_key)
