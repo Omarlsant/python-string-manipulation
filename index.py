@@ -1,4 +1,4 @@
-# Step 93: Put a newline character at the beginning of your first print call and see the output.
+# Step 94: Uncomment the decryption variable and change its value by passing text as the first argument to decrypt.
 
 text = 'mrttaqrhknsw ih puggrur'
 custom_key = 'python'
@@ -29,6 +29,6 @@ def decrypt(message, key):
 
 print(f'\nEncrypted text: {text}')
 print(f'Key: {custom_key}')
+decryption = decrypt(text, custom_key)
 
-# decryption = decrypt(encryption, custom_key)
 # print(decryption)
